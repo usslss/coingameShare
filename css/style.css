@@ -1,0 +1,120 @@
+*{margin:0;padding:0;}
+/*body{font-size:12px;background: url('../img/bg.png') no-repeat;background-size: 100%;position: relative;}*/
+a{color:#333;}
+ul{list-style:none;}
+.inputlist{
+display: block;
+overflow: hidden;	
+border-bottom: 1px solid #eeeeee;
+padding: 3px 0;
+margin-bottom: 0;
+position: relative;
+}
+.inputlist label{
+	font-size: .6rem;
+	color: #333333;
+	height: 38px;
+	line-height: 43px;
+}
+.inputlist input{
+	display: block;
+	height: 38px;
+    padding:0;
+    font-size: .6rem;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    margin-top: .2rem;
+    outline: none;
+   border: none;
+}
+.getcode{
+	border: 1px solid #2480d2;
+	font-size: .5rem;
+	color: #2480d2;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+	position: absolute;
+	top: .4rem;
+	right: 15px;
+	margin: 0;
+}
+.registerBtn{
+	width: 100%;
+	background: #2480d2;
+	font-size: .6rem;
+	color: #FFFFFF;
+	padding: .4rem;
+	outline: none;
+}
+.registerBtn:focus,.registerBtn:hover,.selectBtn:focus,.selectBtn:hover{
+	color: #FFFFFF;
+	outline: none;
+}
+.disabledBtn{
+	width: 100%;
+	background: #CCCCCC;
+	font-size: .6rem;
+	color: #FFFFFF;
+	padding: .4rem;
+	outline: none;
+}
+.tost{
+	width: 100%;
+	position: absolute;
+	top: 45%;
+	text-align: center;
+	padding: 0 5%;
+	display: none;
+}
+.tost p{
+	background: rgba(0,0,0,.5);
+	padding: 10px 15px;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 5px;
+	font-size: .6rem;
+}
+.select {
+	padding: 10px;
+}
+.select input {
+	display: inline-block;
+	width: 49%;
+	height: 40px;
+	font-size: .6rem;
+	border: 1px solid #F5F5F5;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 10px;
+	float: left;
+	margin:0 .5% ;
+}
+.selectBtn{
+	width: 100%;
+	background: #2480d2;
+	font-size: .6rem;
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+.list{
+	padding: 0 10px;
+}
+.listcontent{
+	/*padding: 10px;*/
+}
+.listcontent li{
+	background: #F5F5F5;
+	border-radius:5px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.listcontent li p{
+	font-size: .6rem;
+	color: #333333;
+	line-height: 23px;
+	margin: 0;
+}
+
